@@ -8,8 +8,6 @@ let target = 600851475143;
 const simpleNumbers = [2];
 
 export const task3 = () => {
-    console.log("starting");
-
     while (true) {
         let currentSimpleNumber = simpleNumbers.at(-1);
 
