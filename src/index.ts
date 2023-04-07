@@ -7,4 +7,6 @@ export * from './task6';
 export * from './task7';
 export * from './task8';
 export * from './task9';
+
 export * from './task11';
+export * from './task12';
