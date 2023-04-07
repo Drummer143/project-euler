@@ -20,4 +20,4 @@ if (!(taskName in tasks)) {
 
 const result = tasks[taskName]()
 
-console.log(result);
+console.log('result:', result);
