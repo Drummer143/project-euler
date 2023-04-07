@@ -10,3 +10,4 @@ export * from './task9';
 
 export * from './task11';
 export * from './task12';
+export * from './task13';
