@@ -2,7 +2,7 @@ const START_MARK = 'START_MARK';
 const END_MARK = 'END_MARK';
 
 export const setStartMark = () => {
-    performance.mark(START_MARK)
+    performance.mark(START_MARK);
 };
 
 export const measureTime = () => {
