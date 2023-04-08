@@ -8,5 +8,5 @@ export const measureTime = () => {
 
     const { duration } = performance.measure('result', { start: START_MARK, end: END_MARK });
 
-    console.log('duration:', duration);
+    console.log('duration:', Math.ceil(duration), 'ms');
 }

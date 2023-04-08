@@ -103,7 +103,7 @@ const NUMBERS = [
     '53503534226472524250874054075591789781264330331690'
 ]
 
-// answer: 5537376230;  
+// answer: 5537376230;
 
 export const task13 = () => {
     const answer = NUMBERS.reduce((prev, curr) => Number(prev) + Number(curr), 0);
